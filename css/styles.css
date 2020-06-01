@@ -1,5 +1,49 @@
+*{outline:1px dotted black}
 body {
     font-family: "Times New Roman";
     font-size: 16px;
     color: brown;
+    margin: 0;
+}
+
+.favoriteTopics{
+    display: flex;
+    flex-wrap: wrap;
+}
+.box{
+    height: 300px;
+    width: 33.333%;
+    min-width: 300px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.boxTitle{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(000, 000, 000, .5);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+}
+
+/* @media(max-width: 900px) {
+    .box{width: 100%;}
+} */
+
+.funk {
+    background-image: url(../img/funk.png)
+}
+
+.gardening {
+    background-image: url(../img/sneaky_mint_spider.jpg)
+}
+
+.history {
+    background-image: url(../img/history.jpg)
 }
