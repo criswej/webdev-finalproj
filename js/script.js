@@ -1,4 +1,4 @@
-var favorites= ["funk", "history", "gardening", "movies"]
+var favorites= ["funk", "history", "gardening"]
 var navbar = document.getElementById("navbar")
 favorites.forEach(function(item)
 

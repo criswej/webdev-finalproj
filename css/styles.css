@@ -32,10 +32,6 @@ body {
     height: 40px;
 }
 
-/* @media(max-width: 900px) {
-    .box{width: 100%;}
-} */
-
 .funk {
     background-image: url(../img/funk.png)
 }
